@@ -8,11 +8,13 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content:space-between;
     font-family: "roboto", sans-serif;
 }
 
 .header {
     display: flex;
+    flex: 1;
     justify-content: center;
     background-color: #1F2937;
     color: #F9FAF8;
@@ -30,6 +32,7 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     align-self: flex-start;
+    margin: 8px;
 }
 
 .header-links {
@@ -161,4 +164,55 @@ ul {
     align-self: flex-end;
     font-weight: bold;
     margin-top: -16px;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-container2 {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    color: #ffffff;
+    width: 1200px;
+    height: 150px;
+    margin: 32px;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 16px;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-call-to-action {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    padding: 8px 32px;
+    background-color: #3882F6;
+    font-weight: 900;
+    
+}
+
+.action-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 24px;
 }
